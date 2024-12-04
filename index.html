@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Bootstrap Website Demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -60,8 +60,8 @@
             </div>
         </nav>
 
-        <!-- Header -->
-        <header class="masthead">
+        <!-- Header image-->
+        <div class="masthead">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 text-left">
@@ -71,14 +71,15 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
     </header>
 
     <!-- Left Sidebar -->
     <div class="container">
         <div class="row">
-            <aside class="col-3">
+            <aside class="col-12 col-md-4 col-lg-3 order-sm-2 order-md-1">
                 <section class="mt-5 p-2">
+                    <h2 class="visually-hidden">Stats</h2>
                     <ul class="list-group">
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <img src="./assets/images/code-solid.svg" alt="Logo" width="48" height="48" class="me-3">
@@ -128,15 +129,27 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="assets/images/image-1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Project Example</h5>
+                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/images/image-2.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Project Example</h5>
+                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/images/image-3.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Project Example</h5>
+                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/images/image-4.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Project Example</h5>
+                                </div>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -158,13 +171,11 @@
                         gains to
                         greater competitive advantage. On the other hand, loss of control over the outsourced function
                         is often a potential business risk.</p>
-
-
                 </section>
             </aside>
 
             <!-- Main -->
-            <main class="col-6">
+            <main class="col-12 col-md-8 col-lg-6 order-sm-1">
                 <section class="mt-5 p-3">
                     <div class="text-info">Who we are?</div>
                     <h2>Custom Software Development Company</h2>
@@ -184,7 +195,7 @@
 
                 <section class="mt-5 p-3">
                     <h2>Frequently Asked Questions</h2>
-                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -256,98 +267,43 @@
 
                     <div class="row justify-content-between">
                         <div class="col-4">
-                            <div class="card" style="width: 12rem;">
+                            <div class="card">
                                 <img src="./assets/images/persona.jpg" class="card-img-top" alt="user persona">
                                 <div class="card-body">
-                                    <h5>Joan Johnson</h3>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the
-                                            bulk
-                                            of the card's content.</p>
-                                        <a href="#" class="card-link">Portfolio</a>
-                                        <a href="#" class="btn btn-primary mt-2">Get in touch</a>
+                                    <h5>Joan Johnson</h5>
+                                    <p class="card-text">Some quick example text.</p>
+                                    <div><a href="#" class="card-link">More</a></div>
+                                    <div><a href="#" class="btn btn-sm btn-primary mt-2">Get in touch</a></div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-4">
-                            <div class="card" style="width: 12rem;">
+                            <div class="card">
                                 <img src="./assets/images/persona.jpg" class="card-img-top" alt="user persona">
                                 <div class="card-body">
-                                    <h5>Joan Johnson</h3>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the
-                                            bulk
-                                            of the card's content.</p>
-                                        <a href="#" class="card-link">Portfolio</a>
-                                        <a href="#" class="btn btn-primary mt-2">Get in touch</a>
+                                    <h5>Joan Johnson</h5>
+                                    <p class="card-text">Some quick example text.</p>
+                                    <div><a href="#" class="card-link">More</a></div>
+                                    <div><a href="#" class="btn btn-sm btn-primary mt-2">Get in touch</a></div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-4">
-                            <div class="card" style="width: 12rem;">
+                            <div class="card">
                                 <img src="./assets/images/persona.jpg" class="card-img-top" alt="user persona">
                                 <div class="card-body">
-                                    <h5>Joan Johnson</h3>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the
-                                            bulk
-                                            of the card's content.</p>
-                                        <a href="#" class="card-link">Portfolio</a>
-                                        <a href="#" class="btn btn-primary mt-2">Get in touch</a>
+                                    <h5>Joan Johnson</h5>
+                                    <p class="card-text">Some quick example text.</p>
+                                    <div><a href="#" class="card-link">More</a></div>
+                                    <div><a href="#" class="btn btn-sm btn-primary mt-2">Get in touch</a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
-                <section class="mt-5 p-3">
-                    <div class="text-info">Have a question?</div>
-                    <h2>Contact us</h2>
-                    <form class="row g-3">
-                        <div class="col-md-6">
-                            <label for="inputName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="Your name">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Your email">
-                        </div>
-
-                        <div class="col-md-12">
-                            <label for="inputTopic" class="form-label">Topic</label>
-                            <select id="inputTopic" class="form-select">
-                                <option selected>Select a topic</option>
-                                <option>Web Dev</option>
-                                <option>Mobile Dev</option>
-                                <option>Careers</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <label for="inputMessage" class="form-label">Message</label>
-                            <textarea class="form-control" id="exampleinputMessage" rows="4"
-                                placeholder="How can we help you?"></textarea>
-                        </div>
-
-                        <div class="form-check ms-2 mb-3">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Sign up for Newsletter
-                            </label>
-                        </div>
-
-                        <div class="col-12">
-                            <button type="submit" class="btn btn-info">Submit &#8594;</button>
-                        </div>
-                    </form>
-                </section>
-
             </main>
 
-            <aside class="col-3">
+            <aside class="col-12 col-md-8 col-lg-3 offset-md-4 offset-lg-0 order-sm-3 ps-md-4 pe-md-4">
                 <div class="card mt-5 p-2">
                     <div class="card-body">
                         <h4 class="text-primary">Expertise</h4>
@@ -379,8 +335,52 @@
                 </section>
 
             </aside>
+
+            <!-- contact form -->
+            <section class="mt-5 p-3 order-4 col-12 col-md-8 col-lg-6 offset-md-4 offset-lg-3">
+                <div class="text-info">Have a question?</div>
+                <h2>Contact us</h2>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Your name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Your email">
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="inputTopic" class="form-label">Topic</label>
+                        <select id="inputTopic" class="form-select">
+                            <option selected>Select a topic</option>
+                            <option>Web Dev</option>
+                            <option>Mobile Dev</option>
+                            <option>Careers</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="inputMessage" class="form-label">Message</label>
+                        <textarea class="form-control" id="inputMessage" rows="4"
+                            placeholder="How can we help you?"></textarea>
+                    </div>
+
+                    <div class="form-check ms-2 mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Sign up for Newsletter
+                        </label>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-info">Submit &#8594;</button>
+                    </div>
+                </form>
+            </section>
         </div>
     </div>
+
 
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-secondary">
@@ -388,53 +388,30 @@
         <section>
             <div class="container text-center text-md-start mt-5 p-4">
                 <div class="row mt-5">
-                    <div class="col-3">
-                        <h6 class="text-uppercase fw-bold mb-3">
-                            Company name
-                        </h6>
-                        <p>
-                            Here you can use rows and columns to organize your footer content. Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit.
-                        </p>
+                    <div class="col-12 col-lg-3 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-3">Company name</h6>
+                        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit.</p>
                     </div>
 
-                    <div class="col-3 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Services
-                        </h6>
-                        <p>
-                            <a href="#!" class="text-reset">Web Development</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Mobile Development</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">UI/UX</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Pricing</a>
-                        </p>
+                    <div class="col-6 col-md-4 col-lg-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Services</h6>
+                        <p><a href="#!" class="text-reset">Web Development</a></p>
+                        <p><a href="#!" class="text-reset">Mobile Development</a></p>
+                        <p><a href="#!" class="text-reset">UI/UX</a></p>
+                        <p><a href="#!" class="text-reset">Pricing</a></p>
                     </div>
 
-                    <div class="col-3 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Company
-                        </h6>
-                        <p>
-                            <a href="#!" class="text-reset">About Us</a>
+                    <div class="col-6 col-md-4 col-lg-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Company</h6>
+                        <p><a href="#!" class="text-reset">About Us</a>
                         </p>
-                        <p>
-                            <a href="#!" class="text-reset">Career</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Testimonials</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Blog</a>
-                        </p>
+                        <p><a href="#!" class="text-reset">Career</a></p>
+                        <p><a href="#!" class="text-reset">Testimonials</a></p>
+                        <p><a href="#!" class="text-reset">Blog</a></p>
                     </div>
 
-                    <div class="col-3 mx-auto mb-md-0 mb-4">
+                    <div class="col-12 col-md-4 col-lg-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
                         <p>Hobbiton, 1 Bagshot Row, Shire</p>
                         <p>info@example.com</p>
